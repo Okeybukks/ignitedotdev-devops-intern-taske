@@ -1,0 +1,4 @@
+terraform/.terraform.lock.hcl
+terraform/terraform.tfstate.backup
+terraform/terraform.tfstate
+terraform/.terraform/providers/registry.terraform.io/gavinbunney/kubectl/1.14.0/linux_amd64/terraform-provider-kubectl_v1.14.0
