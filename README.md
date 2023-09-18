@@ -1,6 +1,7 @@
 # ignitedotdev-devops-intern-tasks
 
 ## Task One (Creation of a K8s Cluster with kind)
+*** The environment this task was carried on was Linux Ubuntu***
 
 To create the the k8s cluster run the ```kind-script.sh``` file using this command
 
@@ -39,5 +40,13 @@ To see the resources to be created
 To finally deploy
 
 ```terraform apply --auto-approve```
+
+Th above terraform commands will also deploy  ```kube-prometheus stack```, using the ```terraform helm provider```
+
+Below are the screenshots of the created resources.
+
+![p1](./p1.png) 
+
+![p2](./p1.png) 
 
 
