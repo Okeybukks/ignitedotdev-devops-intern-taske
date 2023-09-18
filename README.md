@@ -8,7 +8,7 @@ To create the the k8s cluster run the ```kind-script.sh``` file using this comma
 
 To download the kubeconfig of the created cluster and also save its content to a file, run this command.
 
-```kind get kubeconfig --name kind > kubeconfig.yaml```
+```kind get kubeconfig --name kind > KUBECONFIG```
 
 ## Task Two
 
